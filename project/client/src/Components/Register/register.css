@@ -1,0 +1,143 @@
+
+
+.register-main-container {
+    background-color: #D7EEEA;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 100%;
+    /* height: 100vh; */
+    /* overflow-y: scroll; */
+    padding-bottom: 4em;
+}
+
+
+.register {
+    min-height: 800px;
+    /* overflow-y: scroll; */
+    width: 500px;
+    background-color: white;
+    margin-top: 2em;
+}
+
+.register-form{
+    background-color: white;
+
+}
+
+.register h1 {
+    font-weight: 500;
+    background-color: #3A8891;
+    color: white;
+    margin-top: 0;
+    padding: 0.8em;
+}
+
+.register-form label {
+    display: block;
+    font-size: 17px;
+    margin-bottom: 5px;
+    margin-left: 4.7em;
+    color: #273438;
+    text-align: left;
+}
+
+.register-form input {
+    border: 1px solid #ECEBED;
+    border-radius: 2px;
+    font-size: 14px;
+    width: 25em;
+    height: 2.7em;
+    margin-bottom: 2em;
+    display: inline-block;
+}
+
+
+.register-form button {
+    margin-top: 1em;
+    margin-bottom: 1.7em;
+    width: 16em;
+    background-color: #3A8891;
+    color: white;
+    border-radius: 3px;
+    padding: 0.5em;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.redirect{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.redirect label{
+    margin-left: 0;
+}
+.redirect .register-link{
+    color: #3A8891;
+    margin-left: 0.2em;
+}
+
+.register-link:hover{
+    color: #27666d;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.password-error {
+    color: rgb(182, 38, 38);
+    margin: 0;
+    text-align: left;
+    margin-left: 4.6em;
+}
+
+.conf-pass{
+    margin-bottom: 3px !important;
+}
+
+.user-option{
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.user-option .form-check {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.user-option label{
+    margin: 0;
+    margin-left: 9px;
+}
+
+.user-option input {
+    margin-top: 6px;
+    height: 14px;
+    width: 14px;   
+    cursor: pointer; 
+}
+
+.speciality-dropdown button{
+    padding: 7px;
+    background-color: white !important;
+    color: black;
+    font-size: 15px;
+    width: 70%;
+}
+
+.speciality-dropdown button:hover{
+    padding: 7px;
+    background-color: white !important;
+    color: black;
+    font-size: 15px;
+
+}
+
+.speciality-dropdown button::after {
+    margin-left: 11em;
+}
+

@@ -1,0 +1,56 @@
+
+
+.doc-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.doc-cards .card{
+    position: relative;
+    width: 10em;
+    height: 10em;
+    margin-left: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    background: url('../../../public/doc_card.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+.doc-cards .card img {
+    opacity: 0.9;
+}
+
+.doc-cards .card:hover{
+    border: 1px solid #6c7382;
+    background: url('../../../public/select.png') no-repeat;
+    background-position: center;
+    /* background-size: 100% 20%; */
+}
+
+.doc-cards .card label {
+    background-color: #282C34;
+    color: white;
+    font-size: 14px;
+}
+
+.doc-cards .card label:last-child {
+    position: absolute;
+    background-color: #282C34;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.doc-cards .card label:nth-child(2) {
+    position: absolute;
+    background-color: #282C34;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 0;
+    bottom: 11%;
+    width: 100%;
+}

@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  position: relative;
+}
+
+ body {
+  min-width: 1200px;
+  overflow-x: auto;
+}
+
+#root {
+  position: relative;
+  max-width: 2100px;
+  margin: auto;
+} 
+
+
+
+

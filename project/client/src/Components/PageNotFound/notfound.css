@@ -1,0 +1,13 @@
+
+.notfound-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-not-found{
+    background: url('../../../public/404.jpg') no-repeat;
+    height: calc(100vh);
+    width: calc(120vh);
+    background-size: 100% 100%;
+}

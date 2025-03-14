@@ -1,0 +1,90 @@
+
+
+.topbar-main-container{
+    height: 5em;
+    background-color: #282C34;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.app-icon{
+    height: 6em;
+    width: 6em;
+    background: url('../../../public/app-icon.png') no-repeat;
+    background-size: 80% 80%;
+    cursor: pointer;
+    background-position: center;
+    margin-left: 3em;
+}
+
+.welcome{
+
+}
+
+.my-actions{
+
+    height: 2.5em;
+    width: 2.5em;
+    background-color: #61DAFA;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 3em;
+
+    margin-right: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.my-actions label{
+    color: black;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.settings{
+    position: absolute;
+    /* float: right; */
+    width: 9em;
+    height: 6em;
+    border: 1px solid white;
+    background-color: #20232A;
+    color: white;
+    right: 0;
+    top: 89%;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.settings label{
+    margin: 2px;
+}
+
+
+.settings label:hover{
+    color: #61DAFA;
+    cursor: pointer;
+}
+
+.settings .line-break{
+    background-color: white;
+    height: 1px;
+    width: 100%;
+}
+
+.goto-book{
+    cursor: pointer;
+    margin-left: 1em;
+    color: #61DAFA;
+    border: 1px solid #61DAFA;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 14px;
+}

@@ -1,0 +1,13 @@
+
+
+.appointments-main-container{
+    margin-left: 3em;
+    height: 36.7em;
+    overflow-y: scroll;
+}
+
+.appointments-main-container h4{
+    padding: 0.5em;
+    background-color: #ddedea;
+    margin: 0;
+}

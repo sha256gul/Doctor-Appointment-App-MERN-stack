@@ -1,0 +1,80 @@
+
+
+.menu-main-container{
+    background-color: #32363E;
+    position: absolute;
+    width: 3em;
+    height: 88vh;
+    color: #32363E;
+    transition: width 0.8s;
+    transition: color 0.8s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.menu-main-container:hover{
+    background-color: #32363E;
+    position: absolute;
+    width: 14em;
+    height: 88vh;
+    color: white;
+    transition: width 0.8s;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    transition: font-size 0.5s;
+}
+
+.menu-main-container label{
+    width: 100%;
+    cursor: pointer;
+    padding: 1.5em;
+    border-width: 100%;
+    font-size: 12px;
+    transition: font-size 0.4s;
+}
+
+.menu-main-container label:hover{
+    cursor: pointer;
+    width: 100%;
+    color: #61DAFA;
+    padding: 1.4em;
+    border: 1px solid #7199BE;
+    border-left: none;
+    border-width: 100%;
+    font-size: 18px;
+    transition: font-size 0.4s;
+}
+
+.appointment-icon{
+    padding: 1.5em;
+    margin-bottom: 2em;
+    background: url('../../../public/book-appointment.png') no-repeat;
+    background-size: 80% 80%;
+}
+
+.my-appointment-icon{
+    padding: 1.5em;
+    margin-bottom: 2em;
+    background: url('../../../public/my-app.png') no-repeat;
+    background-size: 80% 80%;
+}
+
+.patients-icon{
+    padding: 1.5em;
+    margin-bottom: 2em;
+    background: url('../../../public/patient.png') no-repeat;
+    background-size: 80% 80%;
+}
+
+.doctors-icon{
+    padding: 1.5em;
+    background: url('../../../public/my-docs.png') no-repeat;
+    background-size: 80% 80%;
+}
+
